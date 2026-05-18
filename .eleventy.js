@@ -764,7 +764,8 @@ module.exports = function(eleventyConfig) {
   userEleventySetup(eleventyConfig);
 
   return {
-    dir: {
+    pathPrefix: "/InterviewOps/",
+    dir: {  
       input: "src/site",
       output: "dist",
       data: `_data`,
